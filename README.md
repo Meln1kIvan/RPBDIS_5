@@ -1,0 +1,1 @@
+Лабораторная работа №5 Мельник И.Г. [![build and test](https://github.com/Meln1kIvan/RPBDIS_5/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Meln1kIvan/RPBDIS_5/actions/workflows/dotnet.yml)
