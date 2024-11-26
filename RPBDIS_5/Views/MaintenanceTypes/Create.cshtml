@@ -1,0 +1,19 @@
+﻿@model RPBDIS_5.Models.MaintenanceType
+
+@{
+    ViewData["Title"] = "Create Maintenance Type";
+    Layout = "_Layout";
+}
+
+<h2>Create Maintenance Type</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        <input asp-for="Description" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</form>

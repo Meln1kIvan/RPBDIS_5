@@ -1,0 +1,55 @@
+﻿@model RPBDIS_5.Models.Employee
+
+@{
+    ViewData["Title"] = "Employee Details";
+    Layout = "_Layout"; // Используем мастер-страницу
+}
+
+<h2>Employee Details</h2>
+
+<div>
+    <h4>Employee</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Full Name
+        </dt>
+        <dd class="col-sm-10">
+            @Model.FullName
+        </dd>
+        <dt class="col-sm-2">
+            Position
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Position
+        </dd>
+    </dl>
+
+    <!-- Если есть связанные данные, их можно вывести так -->
+    @if (Model.CompletedWorks.Any())
+    {
+        <h4>Completed Works</h4>
+        <ul>
+            @foreach (var work in Model.CompletedWorks)
+            {
+                <li>Work ID: @work.CompletedMaintenanceId, Cost: @work.ActualCost</li>
+            }
+        </ul>
+    }
+
+    @if (Model.MaintenanceSchedules.Any())
+    {
+        <h4>Maintenance Schedules</h4>
+        <ul>
+            @foreach (var schedule in Model.MaintenanceSchedules)
+            {
+                <li>Schedule ID: @schedule.ScheduleId, Estimated Cost: @schedule.EstimatedCost</li>
+            }
+        </ul>
+    }
+</div>
+
+<p>
+    <a class="btn btn-primary" href="@Url.Action("Edit", new { id = Model.EmployeeId })">Edit</a> |
+    <a class="btn btn-secondary" href="@Url.Action("Index")">Back to List</a>
+</p>

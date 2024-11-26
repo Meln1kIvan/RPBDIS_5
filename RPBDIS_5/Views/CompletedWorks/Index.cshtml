@@ -1,0 +1,130 @@
+﻿@model IEnumerable<RPBDIS_5.Models.CompletedWork>
+
+@{
+    ViewData["Title"] = "Completed Works";
+    Layout = "_Layout"; // Указываем мастер-страницу
+}
+
+<h2>Completed Works</h2>
+
+<p>
+    <a class="btn btn-primary" href="@Url.Action("Create", "CompletedWorks")">Create New Completed Work</a>
+    <button class="btn btn-primary" id="filterButton" onclick="toggleFilter()">Показать фильтры</button>
+</p>
+
+<!-- Форма для фильтрации -->
+<div id="filterContainer" style="display: none; margin-top: 10px;">
+    <form method="get" action="@Url.Action("Index")">
+        <div class="form-group">
+            <label for="equipmentName">Оборудование:</label>
+            <input type="text" id="equipmentName" name="equipmentName" value="@ViewData["CurrentEquipmentFilter"]" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="maintenanceType">Тип обслуживания:</label>
+            <input type="text" id="maintenanceType" name="maintenanceType" value="@ViewData["CurrentMaintenanceTypeFilter"]" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="responsibleEmployee">Ответственный сотрудник:</label>
+            <input type="text" id="responsibleEmployee" name="responsibleEmployee" value="@ViewData["CurrentResponsibleEmployeeFilter"]" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="completionDate">Дата завершения:</label>
+            <input type="date" id="completionDate" name="completionDate" value="@ViewData["CurrentCompletionDateFilter"]" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="actualCost">Фактическая стоимость:</label>
+            <input type="number" id="actualCost" name="actualCost" step="0.01" value="@ViewData["CurrentActualCostFilter"]" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Применить фильтры</button>
+    </form>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <!-- Ссылки для сортировки по каждому столбцу -->
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["EquipmentSortParm"]"
+                   asp-route-equipmentName="@ViewData["CurrentEquipmentFilter"]"
+                   asp-route-maintenanceType="@ViewData["CurrentMaintenanceTypeFilter"]"
+                   asp-route-responsibleEmployee="@ViewData["CurrentResponsibleEmployeeFilter"]"
+                   asp-route-completionDate="@ViewData["CurrentCompletionDateFilter"]"
+                   asp-route-actualCost="@ViewData["CurrentActualCostFilter"]">
+                    Оборудование
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["MaintenanceTypeSortParm"]"
+                   asp-route-equipmentName="@ViewData["CurrentEquipmentFilter"]"
+                   asp-route-maintenanceType="@ViewData["CurrentMaintenanceTypeFilter"]"
+                   asp-route-responsibleEmployee="@ViewData["CurrentResponsibleEmployeeFilter"]"
+                   asp-route-completionDate="@ViewData["CurrentCompletionDateFilter"]"
+                   asp-route-actualCost="@ViewData["CurrentActualCostFilter"]">
+                    Тип обслуживания
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["CompletionDateSortParm"]"
+                   asp-route-equipmentName="@ViewData["CurrentEquipmentFilter"]"
+                   asp-route-maintenanceType="@ViewData["CurrentMaintenanceTypeFilter"]"
+                   asp-route-responsibleEmployee="@ViewData["CurrentResponsibleEmployeeFilter"]"
+                   asp-route-completionDate="@ViewData["CurrentCompletionDateFilter"]"
+                   asp-route-actualCost="@ViewData["CurrentActualCostFilter"]">
+                    Дата завершения
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["ActualCostSortParm"]"
+                   asp-route-equipmentName="@ViewData["CurrentEquipmentFilter"]"
+                   asp-route-maintenanceType="@ViewData["CurrentMaintenanceTypeFilter"]"
+                   asp-route-responsibleEmployee="@ViewData["CurrentResponsibleEmployeeFilter"]"
+                   asp-route-completionDate="@ViewData["CurrentCompletionDateFilter"]"
+                   asp-route-actualCost="@ViewData["CurrentActualCostFilter"]">
+                    Фактическая стоимость
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["ResponsibleEmployeeSortParm"]"
+                   asp-route-equipmentName="@ViewData["CurrentEquipmentFilter"]"
+                   asp-route-maintenanceType="@ViewData["CurrentMaintenanceTypeFilter"]"
+                   asp-route-responsibleEmployee="@ViewData["CurrentResponsibleEmployeeFilter"]"
+                   asp-route-completionDate="@ViewData["CurrentCompletionDateFilter"]"
+                   asp-route-actualCost="@ViewData["CurrentActualCostFilter"]">
+                    Ответственный сотрудник
+                </a>
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Equipment?.Name</td>
+                <td>@item.MaintenanceType?.Description</td>
+                <td>@item.CompletionDate?.ToString("d")</td>
+                <td>@item.ActualCost</td>
+                <td>@item.ResponsibleEmployee?.FullName</td>
+                <td>
+                    <a class="btn btn-info btn-sm" href="@Url.Action("Edit", "CompletedWorks", new { id = item.CompletedMaintenanceId })">Edit</a>
+                    <a class="btn btn-info btn-sm" href="@Url.Action("Details", "CompletedWorks", new { id = item.CompletedMaintenanceId })">Details</a>
+                    <a class="btn btn-danger btn-sm" href="@Url.Action("Delete", "CompletedWorks", new { id = item.CompletedMaintenanceId })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        // Скрипт для показа/скрытия фильтров
+        function toggleFilter() {
+            var filterContainer = document.getElementById('filterContainer');
+            if (filterContainer.style.display === 'none') {
+                filterContainer.style.display = 'block';
+            } else {
+                filterContainer.style.display = 'none';
+            }
+        }
+    </script>
+}

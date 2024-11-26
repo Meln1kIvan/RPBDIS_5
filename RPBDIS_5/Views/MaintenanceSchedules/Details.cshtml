@@ -1,0 +1,31 @@
+﻿@model RPBDIS_5.Models.MaintenanceSchedule
+
+<h2>Maintenance Schedule Details</h2>
+
+<table class="table">
+    <tr>
+        <th>Equipment</th>
+        <td>@Model.Equipment?.Name</td> <!-- Отображаем название оборудования -->
+    </tr>
+    <tr>
+        <th>Maintenance Type</th>
+        <td>@Model.MaintenanceType?.Description</td> <!-- Отображаем описание типа обслуживания -->
+    </tr>
+    <tr>
+        <th>Scheduled Date</th>
+        <td>@Model.ScheduledDate?.ToString("d")</td>
+    </tr>
+    <tr>
+        <th>Estimated Cost</th>
+        <td>@Model.EstimatedCost</td>
+    </tr>
+    <tr>
+        <th>Responsible Employee</th>
+        <td>@Model.ResponsibleEmployee?.FullName</td> <!-- Отображаем имя сотрудника -->
+    </tr>
+</table>
+
+<p>
+    <a class="btn btn-primary" href="@Url.Action("Edit", new { id = Model.ScheduleId })">Edit</a> |
+    <a class="btn btn-secondary" href="@Url.Action("Index")">Back to List</a>
+</p>

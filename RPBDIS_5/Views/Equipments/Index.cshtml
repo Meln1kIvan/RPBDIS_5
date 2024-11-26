@@ -1,0 +1,86 @@
+﻿@model IEnumerable<RPBDIS_5.Models.Equipment>
+
+@{
+    ViewData["Title"] = "Equipments";
+}
+
+<h2>Equipments</h2>
+
+<p>
+    <a class="btn btn-primary" href="@Url.Action("Create")">Create New Equipment</a>
+    <button class="btn btn-secondary" id="toggleFilterButton" onclick="toggleFilters()">Show Filters</button>
+</p>
+
+<div id="filterContainer" style="display: none; margin-bottom: 20px;">
+    <form method="get" action="@Url.Action("Index")">
+        <div class="form-group">
+            <label for="inventoryNumber">Inventory Number</label>
+            <input type="text" id="inventoryNumber" name="inventoryNumber" value="@ViewData["FilterInventoryNumber"]" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" value="@ViewData["FilterName"]" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="startDate">Start Date</label>
+            <input type="date" id="startDate" name="startDate" value="@ViewData["FilterStartDate"]" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location" value="@ViewData["FilterLocation"]" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Apply Filters</button>
+    </form>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                <a asp-route-sortOrder="@ViewData["InventorySortParm"]">Inventory Number</a>
+            </th>
+            <th>
+                <a asp-route-sortOrder="@ViewData["NameSortParm"]">Name</a>
+            </th>
+            <th>
+                <a asp-route-sortOrder="@ViewData["StartDateSortParm"]">Start Date</a>
+            </th>
+            <th>
+                <a asp-route-sortOrder="@ViewData["LocationSortParm"]">Location</a>
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.InventoryNumber</td>
+                <td>@item.Name</td>
+                <td>@item.StartDate?.ToString("d")</td>
+                <td>@item.Location</td>
+                <td>
+                    <a class="btn btn-info btn-sm" href="@Url.Action("Edit", new { id = item.EquipmentId })">Edit</a>
+                    <a class="btn btn-info btn-sm" href="@Url.Action("Details", new { id = item.EquipmentId })">Details</a>
+                    <a class="btn btn-danger btn-sm" href="@Url.Action("Delete", new { id = item.EquipmentId })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        function toggleFilters() {
+            const filterContainer = document.getElementById('filterContainer');
+            const button = document.getElementById('toggleFilterButton');
+            if (filterContainer.style.display === 'none') {
+                filterContainer.style.display = 'block';
+                button.textContent = 'Hide Filters';
+            } else {
+                filterContainer.style.display = 'none';
+                button.textContent = 'Show Filters';
+            }
+        }
+    </script>
+}

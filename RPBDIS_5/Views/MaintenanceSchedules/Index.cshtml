@@ -1,0 +1,80 @@
+﻿@model IEnumerable<RPBDIS_5.Models.MaintenanceSchedule>
+
+@{
+    ViewData["Title"] = "Maintenance Schedules";
+    Layout = "_Layout";
+}
+
+<h2>Maintenance Schedules</h2>
+
+<p>
+    <a class="btn btn-primary" href="@Url.Action("Create")">Create New Equipment</a>
+    <button class="btn btn-primary" id="filterButton" onclick="toggleFilter()">Показать фильтры</button>
+</p>
+
+<div id="filterContainer" style="display: none; margin-top: 10px;">
+    <form method="get" action="@Url.Action("Index")">
+        <div class="form-group">
+            <label for="equipmentName">Оборудование:</label>
+            <input type="text" id="equipmentName" name="equipmentName" class="form-control" value="@ViewData["equipmentName"]" />
+        </div>
+        <div class="form-group">
+            <label for="maintenanceTypeName">Тип обслуживания:</label>
+            <input type="text" id="maintenanceTypeName" name="maintenanceTypeName" class="form-control" value="@ViewData["maintenanceTypeName"]" />
+        </div>
+        <div class="form-group">
+            <label for="responsibleEmployeeName">Ответственный сотрудник:</label>
+            <input type="text" id="responsibleEmployeeName" name="responsibleEmployeeName" class="form-control" value="@ViewData["responsibleEmployeeName"]" />
+        </div>
+        <div class="form-group">
+            <label for="scheduledDate">Плановая дата:</label>
+            <input type="date" id="scheduledDate" name="scheduledDate" class="form-control" value="@ViewData["scheduledDate"]" />
+        </div>
+        <button type="submit" class="btn btn-primary">Применить фильтры</button>
+    </form>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["EquipmentSortParm"]">Оборудование</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["MaintenanceTypeSortParm"]">Тип обслуживания</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["ResponsibleEmployeeSortParm"]">Ответственный сотрудник</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["ScheduledDateSortParm"]">Плановая дата</a>
+            </th>
+            <th>Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var schedule in Model)
+        {
+            <tr>
+                <td>@schedule.Equipment?.Name</td>
+                <td>@schedule.MaintenanceType?.Description</td>
+                <td>@schedule.ResponsibleEmployee?.FullName</td>
+                <td>@schedule.ScheduledDate?.ToString("yyyy-MM-dd")</td>
+                <td>
+                    <a class="btn btn-info btn-sm" href="@Url.Action("Edit", new { id = schedule.ScheduleId })">Edit</a>
+                    <a class="btn btn-info btn-sm" href="@Url.Action("Details", new { id = schedule.ScheduleId })">Details</a>
+                    <a class="btn btn-danger btn-sm" href="@Url.Action("Delete", new { id = schedule.ScheduleId })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        function toggleFilter() {
+            var filterContainer = document.getElementById("filterContainer");
+            filterContainer.style.display = filterContainer.style.display === "none" ? "block" : "none";
+        }
+    </script>
+}

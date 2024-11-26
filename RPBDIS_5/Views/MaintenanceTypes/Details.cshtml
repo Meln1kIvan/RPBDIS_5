@@ -1,0 +1,15 @@
+﻿@model RPBDIS_5.Models.MaintenanceType
+
+<h2>Maintenance Type Details</h2>
+
+<table class="table">
+    <tr>
+        <th>Description</th>
+        <td>@Model.Description</td>
+    </tr>
+</table>
+
+<p>
+    <a class="btn btn-primary" href="@Url.Action("Edit", new { id = Model.MaintenanceTypeId })">Edit</a> |
+    <a class="btn btn-secondary" href="@Url.Action("Index")">Back to List</a>
+</p>

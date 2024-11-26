@@ -1,0 +1,37 @@
+﻿@model RPBDIS_5.Models.MaintenanceSchedule
+
+@{
+    ViewData["Title"] = "Edit Maintenance Schedule";
+    Layout = "_Layout";
+}
+
+<h2>Edit Maintenance Schedule</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="ScheduleId" />
+    <div class="form-group">
+        <label asp-for="EquipmentId" class="control-label">Equipment</label>
+        <select asp-for="EquipmentId" class="form-control" asp-items="@(new SelectList(ViewData["Equipments"] as List<RPBDIS_5.Models.Equipment>, "EquipmentId", "Name"))"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="MaintenanceTypeId" class="control-label">Maintenance Type</label>
+        <select asp-for="MaintenanceTypeId" class="form-control" asp-items="@(new SelectList(ViewData["MaintenanceTypes"] as List<RPBDIS_5.Models.MaintenanceType>, "MaintenanceTypeId", "Description"))"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="ScheduledDate" class="control-label"></label>
+        <input asp-for="ScheduledDate" class="form-control" type="date" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ResponsibleEmployeeId" class="control-label">Responsible Employee</label>
+        <select asp-for="ResponsibleEmployeeId" class="form-control" asp-items="@(new SelectList(ViewData["Employees"] as List<RPBDIS_5.Models.Employee>, "EmployeeId", "FullName"))"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="EstimatedCost" class="control-label"></label>
+        <input asp-for="EstimatedCost" class="form-control" />
+        <span asp-validation-for="EstimatedCost" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</form>

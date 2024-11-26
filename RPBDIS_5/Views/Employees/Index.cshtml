@@ -1,0 +1,101 @@
+﻿@model IEnumerable<RPBDIS_5.Models.Employee>
+
+@{
+    ViewData["Title"] = "Employees";
+    Layout = "_Layout"; // Указываем мастер-страницу
+}
+
+<h2>Employees</h2>
+
+<p>
+    <a class="btn btn-primary" href="@Url.Action("Create", "Employees")">Create New Employee</a>
+    <button class="btn btn-primary" id="filterButton" onclick="toggleFilter()">Показать фильтры</button>
+</p>
+
+<!-- Форма для фильтрации -->
+<div id="filterContainer" style="display: none; margin-top: 10px;">
+    <form method="get" action="@Url.Action("Index")">
+        <div class="form-group">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" value="@ViewData["CurrentFullNameFilter"]" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="position">Position:</label>
+            <input type="text" id="position" name="position" value="@ViewData["CurrentPositionFilter"]" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Применить фильтры</button>
+    </form>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <!-- Ссылки для сортировки по имени и должности -->
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]"
+                   asp-route-fullName="@ViewData["CurrentFullNameFilter"]"
+                   asp-route-position="@ViewData["CurrentPositionFilter"]">
+                    Full Name
+                    @if (ViewData["CurrentSort"]?.ToString().StartsWith("Name") == true)
+                    {
+                        @if (ViewData["CurrentSort"].ToString() == "NameAsc")
+                        {
+                            <span>&uarr;</span> <!-- Стрелка вверх для восходящей сортировки -->
+                        }
+                        else
+                        {
+                            <span>&darr;</span> <!-- Стрелка вниз для нисходящей сортировки -->
+                        }
+                    }
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["PositionSortParm"]"
+                   asp-route-fullName="@ViewData["CurrentFullNameFilter"]"
+                   asp-route-position="@ViewData["CurrentPositionFilter"]">
+                    Position
+                    @if (ViewData["CurrentSort"]?.ToString().StartsWith("Position") == true)
+                    {
+                        @if (ViewData["CurrentSort"].ToString() == "PositionAsc")
+                        {
+                            <span>&uarr;</span> <!-- Стрелка вверх для восходящей сортировки -->
+                        }
+                        else
+                        {
+                            <span>&darr;</span> <!-- Стрелка вниз для нисходящей сортировки -->
+                        }
+                    }
+                </a>
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FullName</td>
+                <td>@item.Position</td>
+                <td>
+                    <a class="btn btn-info btn-sm" href="@Url.Action("Edit", "Employees", new { id = item.EmployeeId })">Edit</a>
+                    <a class="btn btn-info btn-sm" href="@Url.Action("Details", "Employees", new { id = item.EmployeeId })">Details</a>
+                    <a class="btn btn-danger btn-sm" href="@Url.Action("Delete", "Employees", new { id = item.EmployeeId })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        // Скрипт для показа/скрытия фильтров
+        function toggleFilter() {
+            var filterContainer = document.getElementById('filterContainer');
+            if (filterContainer.style.display === 'none') {
+                filterContainer.style.display = 'block';
+            } else {
+                filterContainer.style.display = 'none';
+            }
+        }
+    </script>
+}

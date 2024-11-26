@@ -1,0 +1,41 @@
+﻿@model RPBDIS_5.Models.Equipment
+
+@{
+    ViewData["Title"] = "Create Equipment";
+    Layout = "_Layout";
+}
+
+<h2>Create Equipment</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="InventoryNumber" class="control-label"></label>
+        <input asp-for="InventoryNumber" class="form-control" />
+        <span asp-validation-for="InventoryNumber" class="text-danger"></span> <!-- Отображение сообщения об ошибке -->
+    </div>
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="StartDate" class="control-label"></label>
+        <input asp-for="StartDate" class="form-control" type="date" />
+        <span asp-validation-for="StartDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Location" class="control-label"></label>
+        <input asp-for="Location" class="form-control" />
+        <span asp-validation-for="Location" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

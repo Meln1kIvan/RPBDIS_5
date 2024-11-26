@@ -1,0 +1,33 @@
+﻿@model RPBDIS_5.Models.CompletedWork
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "_Layout";
+}
+
+<h2>Completed Work Details</h2>
+
+<div>
+    <h4>Completed Work</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Equipment</dt>
+        <dd class="col-sm-10">@Model.Equipment?.Name</dd>
+
+        <dt class="col-sm-2">Maintenance Type</dt>
+        <dd class="col-sm-10">@Model.MaintenanceType?.Description</dd>
+
+        <dt class="col-sm-2">Completion Date</dt>
+        <dd class="col-sm-10">@Model.CompletionDate?.ToShortDateString()</dd>
+
+        <dt class="col-sm-2">Responsible Employee</dt>
+        <dd class="col-sm-10">@Model.ResponsibleEmployee?.FullName</dd>
+
+        <dt class="col-sm-2">Actual Cost</dt>
+        <dd class="col-sm-10">@Model.ActualCost</dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.CompletedMaintenanceId" class="btn btn-primary">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

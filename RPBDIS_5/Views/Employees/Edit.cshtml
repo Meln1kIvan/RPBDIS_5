@@ -1,0 +1,32 @@
+﻿@model RPBDIS_5.Models.Employee
+
+@{
+    ViewData["Title"] = "Edit Employee";
+    Layout = "_Layout"; // Используем мастер-страницу
+}
+
+<h2>Edit Employee</h2>
+
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label asp-for="FullName" class="control-label"></label>
+        <input asp-for="FullName" class="form-control" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Position" class="control-label"></label>
+        <input asp-for="Position" class="form-control" />
+        <span asp-validation-for="Position" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="hidden" asp-for="EmployeeId" />
+        <input type="submit" value="Save" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
