@@ -5,6 +5,7 @@ using System.Linq;
 using RPBDIS_5.Data;
 using RPBDIS_5.Models;
 using System.Text.RegularExpressions;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RPBDIS_5.Controllers
 {
@@ -18,6 +19,7 @@ namespace RPBDIS_5.Controllers
         }
 
         // GET: CompletedWorks
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Index(
                     string equipmentName,
                     string maintenanceType,

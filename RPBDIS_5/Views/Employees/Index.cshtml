@@ -9,7 +9,7 @@
 
 <p>
     <a class="btn btn-primary" href="@Url.Action("Create", "Employees")">Create New Employee</a>
-    <button class="btn btn-primary" id="filterButton" onclick="toggleFilter()">Показать фильтры</button>
+    <button class="btn btn-primary" id="toggleFilters" onclick="toggleFilter()">Показать фильтры</button>
 </p>
 
 <!-- Форма для фильтрации -->
@@ -88,14 +88,17 @@
 
 @section Scripts {
     <script>
-        // Скрипт для показа/скрытия фильтров
-        function toggleFilter() {
-            var filterContainer = document.getElementById('filterContainer');
+        function toggleFilters() {
+            const filterContainer = document.getElementById('filterContainer');
+            const button = document.getElementById('toggleFilterButton');
             if (filterContainer.style.display === 'none') {
                 filterContainer.style.display = 'block';
+                button.textContent = 'Скрыть фильтры';
             } else {
                 filterContainer.style.display = 'none';
+                button.textContent = 'Показать фильтры';
             }
         }
     </script>
 }
+

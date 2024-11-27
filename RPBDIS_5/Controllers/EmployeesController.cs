@@ -5,6 +5,7 @@ using RPBDIS_5.Data;
 using RPBDIS_5.Models;
 using System.Text.RegularExpressions;
 using Microsoft.Data.SqlClient;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RPBDIS_5.Controllers
 {
@@ -17,6 +18,7 @@ namespace RPBDIS_5.Controllers
             _context = context;
         }
 
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Index(string fullName, string position, string sortOrder)
         {
             // Если параметры не переданы, пытаемся взять их из куки

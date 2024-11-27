@@ -3,84 +3,100 @@
   "WorkspaceRootPath": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\areas\\identity\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\areas\\identity\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\areas\\identity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\areas\\identity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\areas\\identity\\data\\dbuserinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\areas\\identity\\data\\dbuserinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\data\\migrations\\00000000000000_createidentityschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\data\\migrations\\00000000000000_createidentityschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\controllers\\equipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\controllers\\equipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A477A5E-7ED9-4E97-A745-9CA813F9DADF}|TestControllers\\TestControllers.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\testcontrollers\\completedworkscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A477A5E-7ED9-4E97-A745-9CA813F9DADF}|TestControllers\\TestControllers.csproj|solutionrelative:testcontrollers\\completedworkscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A477A5E-7ED9-4E97-A745-9CA813F9DADF}|TestControllers\\TestControllers.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\testcontrollers\\employeescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A477A5E-7ED9-4E97-A745-9CA813F9DADF}|TestControllers\\TestControllers.csproj|solutionrelative:testcontrollers\\employeescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\controllers\\maintenancetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\controllers\\maintenancetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\controllers\\maintenanceschedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\controllers\\maintenanceschedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\controllers\\completedworkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\controllers\\completedworkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\controllers\\equipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\controllers\\equipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\views\\equipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\views\\equipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\controllers\\completedworkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\controllers\\completedworkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\areas\\identity\\pages\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\areas\\identity\\pages\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A477A5E-7ED9-4E97-A745-9CA813F9DADF}|TestControllers\\TestControllers.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\testcontrollers\\equipmentscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A477A5E-7ED9-4E97-A745-9CA813F9DADF}|TestControllers\\TestControllers.csproj|solutionrelative:testcontrollers\\equipmentscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\views\\maintenanceschedules\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\views\\maintenanceschedules\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\views\\completedworks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\views\\completedworks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\views\\equipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\views\\equipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\views\\equipments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\views\\equipments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\views\\equipments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\views\\equipments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\views\\equipments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\views\\equipments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\views\\equipments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\views\\equipments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\areas\\identity\\data\\dbuserinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\areas\\identity\\data\\dbuserinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|c:\\users\\legio\\desktop\\rpbdis_5\\rpbdis_5\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96D1F870-7554-494A-AA87-5BA9632BC838}|RPBDIS_5\\RPBDIS_5.csproj|solutionrelative:rpbdis_5\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,45 +106,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "RPBDIS_5\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "RPBDIS_5\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T21:18:16.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Areas\\Identity\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "RPBDIS_5\\Areas\\Identity\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Areas\\Identity\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "RPBDIS_5\\Areas\\Identity\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T21:12:58.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "00000000000000_CreateIdentitySchema.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
-              "RelativeDocumentMoniker": "RPBDIS_5\\Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
-              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
-              "RelativeToolTip": "RPBDIS_5\\Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T21:03:34.605Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\appsettings.json",
+              "RelativeDocumentMoniker": "RPBDIS_5\\appsettings.json",
+              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\appsettings.json",
+              "RelativeToolTip": "RPBDIS_5\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-27T10:05:07.994Z",
               "EditorCaption": ""
             },
             {
@@ -137,98 +127,176 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MaintenanceSchedulesController.cs",
-              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Controllers\\MaintenanceSchedulesController.cs",
-              "RelativeDocumentMoniker": "RPBDIS_5\\Controllers\\MaintenanceSchedulesController.cs",
-              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Controllers\\MaintenanceSchedulesController.cs",
-              "RelativeToolTip": "RPBDIS_5\\Controllers\\MaintenanceSchedulesController.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAAAHQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T20:29:02.451Z",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "RPBDIS_5\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "RPBDIS_5\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T09:03:05.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Employees\\Index.cshtml",
               "RelativeDocumentMoniker": "RPBDIS_5\\Views\\Employees\\Index.cshtml",
               "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Employees\\Index.cshtml",
               "RelativeToolTip": "RPBDIS_5\\Views\\Employees\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T20:22:36.207Z",
+              "WhenOpened": "2024-11-27T08:16:28.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Equipments\\Index.cshtml",
-              "RelativeDocumentMoniker": "RPBDIS_5\\Views\\Equipments\\Index.cshtml",
-              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Equipments\\Index.cshtml",
-              "RelativeToolTip": "RPBDIS_5\\Views\\Equipments\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\CompletedWorks\\Index.cshtml",
+              "RelativeDocumentMoniker": "RPBDIS_5\\Views\\CompletedWorks\\Index.cshtml",
+              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\CompletedWorks\\Index.cshtml",
+              "RelativeToolTip": "RPBDIS_5\\Views\\CompletedWorks\\Index.cshtml",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T18:56:45.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Users\\Edit.cshtml",
-              "RelativeDocumentMoniker": "RPBDIS_5\\Views\\Users\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Users\\Edit.cshtml",
-              "RelativeToolTip": "RPBDIS_5\\Views\\Users\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T17:57:57.624Z",
+              "WhenOpened": "2024-11-27T08:10:08.768Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Users\\Index.cshtml",
-              "RelativeDocumentMoniker": "RPBDIS_5\\Views\\Users\\Index.cshtml",
-              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Users\\Index.cshtml",
-              "RelativeToolTip": "RPBDIS_5\\Views\\Users\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA6AAAAAAAAAA==",
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "RPBDIS_5\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "RPBDIS_5\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T17:57:24.651Z",
+              "WhenOpened": "2024-11-27T08:07:41.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Users\\Create.cshtml",
-              "RelativeDocumentMoniker": "RPBDIS_5\\Views\\Users\\Create.cshtml",
-              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Users\\Create.cshtml",
-              "RelativeToolTip": "RPBDIS_5\\Views\\Users\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T17:52:23.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "RPBDIS_5\\Views\\Shared\\_LoginPartial.cshtml",
               "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeToolTip": "RPBDIS_5\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T16:44:34.468Z",
+              "WhenOpened": "2024-11-27T08:07:21.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Equipments\\Create.cshtml",
+              "RelativeDocumentMoniker": "RPBDIS_5\\Views\\Equipments\\Create.cshtml",
+              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Equipments\\Create.cshtml",
+              "RelativeToolTip": "RPBDIS_5\\Views\\Equipments\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T07:47:50.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Equipments\\Delete.cshtml",
+              "RelativeDocumentMoniker": "RPBDIS_5\\Views\\Equipments\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Equipments\\Delete.cshtml",
+              "RelativeToolTip": "RPBDIS_5\\Views\\Equipments\\Delete.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAB4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T07:45:57.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Equipments\\Details.cshtml",
+              "RelativeDocumentMoniker": "RPBDIS_5\\Views\\Equipments\\Details.cshtml",
+              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Equipments\\Details.cshtml",
+              "RelativeToolTip": "RPBDIS_5\\Views\\Equipments\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T07:42:20.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Equipments\\Edit.cshtml",
+              "RelativeDocumentMoniker": "RPBDIS_5\\Views\\Equipments\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Equipments\\Edit.cshtml",
+              "RelativeToolTip": "RPBDIS_5\\Views\\Equipments\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T07:38:47.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\MaintenanceSchedules\\Index.cshtml",
+              "RelativeDocumentMoniker": "RPBDIS_5\\Views\\MaintenanceSchedules\\Index.cshtml",
+              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\MaintenanceSchedules\\Index.cshtml",
+              "RelativeToolTip": "RPBDIS_5\\Views\\MaintenanceSchedules\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T07:24:29.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RPBDIS_5\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RPBDIS_5\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T07:20:20.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "RPBDIS_5\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "RPBDIS_5\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T07:20:15.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Equipments\\Index.cshtml",
+              "RelativeDocumentMoniker": "RPBDIS_5\\Views\\Equipments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Views\\Equipments\\Index.cshtml",
+              "RelativeToolTip": "RPBDIS_5\\Views\\Equipments\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T07:15:55.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "DbUserInitializer.cs",
               "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Areas\\Identity\\Data\\DbUserInitializer.cs",
               "RelativeDocumentMoniker": "RPBDIS_5\\Areas\\Identity\\Data\\DbUserInitializer.cs",
@@ -236,123 +304,122 @@
               "RelativeToolTip": "RPBDIS_5\\Areas\\Identity\\Data\\DbUserInitializer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T16:39:27.499Z",
+              "WhenOpened": "2024-11-27T07:14:12.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Manage.cshtml",
-              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Areas\\Identity\\Pages\\Manage.cshtml",
-              "RelativeDocumentMoniker": "RPBDIS_5\\Areas\\Identity\\Pages\\Manage.cshtml",
-              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Areas\\Identity\\Pages\\Manage.cshtml",
-              "RelativeToolTip": "RPBDIS_5\\Areas\\Identity\\Pages\\Manage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T16:29:19.598Z",
+              "DocumentIndex": 1,
+              "Title": "MaintenanceTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Controllers\\MaintenanceTypesController.cs",
+              "RelativeDocumentMoniker": "RPBDIS_5\\Controllers\\MaintenanceTypesController.cs",
+              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Controllers\\MaintenanceTypesController.cs",
+              "RelativeToolTip": "RPBDIS_5\\Controllers\\MaintenanceTypesController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAADwv4UAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T07:13:20.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 9,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "RPBDIS_5\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Controllers\\UsersController.cs",
               "RelativeToolTip": "RPBDIS_5\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALAAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T15:59:50.648Z",
+              "WhenOpened": "2024-11-27T07:07:59.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Program.cs",
-              "RelativeDocumentMoniker": "RPBDIS_5\\Program.cs",
-              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Program.cs",
-              "RelativeToolTip": "RPBDIS_5\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MaintenanceSchedulesController.cs",
+              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Controllers\\MaintenanceSchedulesController.cs",
+              "RelativeDocumentMoniker": "RPBDIS_5\\Controllers\\MaintenanceSchedulesController.cs",
+              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Controllers\\MaintenanceSchedulesController.cs",
+              "RelativeToolTip": "RPBDIS_5\\Controllers\\MaintenanceSchedulesController.cs",
+              "ViewState": "AgIAANkAAAAAAAAAAAAywPgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T08:20:05.445Z",
+              "WhenOpened": "2024-11-27T07:07:57.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "EquipmentsControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\TestControllers\\EquipmentsControllerTests.cs",
-              "RelativeDocumentMoniker": "TestControllers\\EquipmentsControllerTests.cs",
-              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\TestControllers\\EquipmentsControllerTests.cs",
-              "RelativeToolTip": "TestControllers\\EquipmentsControllerTests.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFMAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "RPBDIS_5\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "RPBDIS_5\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T08:06:54.506Z"
+              "WhenOpened": "2024-11-27T07:07:55.87Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "EquipmentsController.cs",
               "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Controllers\\EquipmentsController.cs",
               "RelativeDocumentMoniker": "RPBDIS_5\\Controllers\\EquipmentsController.cs",
               "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Controllers\\EquipmentsController.cs",
               "RelativeToolTip": "RPBDIS_5\\Controllers\\EquipmentsController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAGMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAANYAAAAAAAAAAAAAANcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T08:01:06.157Z",
+              "WhenOpened": "2024-11-27T07:07:53.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "RPBDIS_5\\Controllers\\EmployeesController.cs",
               "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Controllers\\EmployeesController.cs",
               "RelativeToolTip": "RPBDIS_5\\Controllers\\EmployeesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAywMYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T07:51:09.222Z",
+              "WhenOpened": "2024-11-27T07:07:50.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmployeesControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\TestControllers\\EmployeesControllerTests.cs",
-              "RelativeDocumentMoniker": "TestControllers\\EmployeesControllerTests.cs",
-              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\TestControllers\\EmployeesControllerTests.cs",
-              "RelativeToolTip": "TestControllers\\EmployeesControllerTests.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAEwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T07:52:23.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "CompletedWorksController.cs",
               "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Controllers\\CompletedWorksController.cs",
               "RelativeDocumentMoniker": "RPBDIS_5\\Controllers\\CompletedWorksController.cs",
               "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Controllers\\CompletedWorksController.cs",
               "RelativeToolTip": "RPBDIS_5\\Controllers\\CompletedWorksController.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAAAJMAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABMBAAAAAAAAAAAywDIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T07:27:40.706Z",
+              "WhenOpened": "2024-11-27T07:07:28.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CompletedWorksControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\TestControllers\\CompletedWorksControllerTests.cs",
-              "RelativeDocumentMoniker": "TestControllers\\CompletedWorksControllerTests.cs",
-              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\TestControllers\\CompletedWorksControllerTests.cs",
-              "RelativeToolTip": "TestControllers\\CompletedWorksControllerTests.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAEwF8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T06:58:35.426Z",
+              "DocumentIndex": 23,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "RPBDIS_5\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\Properties\\launchSettings.json",
+              "RelativeToolTip": "RPBDIS_5\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-27T06:16:43.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "RPBDIS_5\\ClassDiagram1.cd",
+              "ToolTip": "C:\\Users\\legio\\Desktop\\RPBDIS_5\\RPBDIS_5\\ClassDiagram1.cd",
+              "RelativeToolTip": "RPBDIS_5\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-11-26T22:35:28.075Z",
               "EditorCaption": ""
             }
           ]

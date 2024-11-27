@@ -1,27 +1,27 @@
 ﻿@model RPBDIS_5.Models.Equipment
 
-<h2>Equipment Details</h2>
+<h2>Оборудование</h2>
 
 <table class="table">
     <tr>
-        <th>Inventory Number</th>
+        <th>Инвентарный номер</th>
         <td>@Model.InventoryNumber</td>
     </tr>
     <tr>
-        <th>Name</th>
+        <th>Название</th>
         <td>@Model.Name</td>
     </tr>
     <tr>
-        <th>Start Date</th>
+        <th>Дата приобретения</th>
         <td>@Model.StartDate?.ToString("d")</td>
     </tr>
     <tr>
-        <th>Location</th>
+        <th>Место нахождения</th>
         <td>@Model.Location</td>
     </tr>
 </table>
 
 <p>
-    <a class="btn btn-primary" href="@Url.Action("Edit", new { id = Model.EquipmentId })">Edit</a> |
-    <a class="btn btn-secondary" href="@Url.Action("Index")">Back to List</a>
+    <a class="btn btn-primary" href="@Url.Action("Edit", new { id = Model.EquipmentId })">Изменить</a> |
+    <a class="btn btn-secondary" href="@Url.Action("Index")">Вернуться к списку</a>
 </p>

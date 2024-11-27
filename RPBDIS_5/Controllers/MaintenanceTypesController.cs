@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using RPBDIS_5.Data;
 using RPBDIS_5.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RPBDIS_5.Controllers
 {
@@ -16,6 +17,7 @@ namespace RPBDIS_5.Controllers
         }
 
         // GET: MaintenanceTypes
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Index()
         {
             var types = await _context.MaintenanceTypes.ToListAsync();

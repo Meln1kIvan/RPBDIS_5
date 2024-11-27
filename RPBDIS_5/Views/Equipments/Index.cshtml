@@ -1,24 +1,27 @@
 ﻿@model IEnumerable<RPBDIS_5.Models.Equipment>
 
 @{
-    ViewData["Title"] = "Equipments";
+    ViewData["Title"] = "Equipment";
 }
 
-<h2>Equipments</h2>
+<h2>Оборудование</h2>
 
 <p>
-    <a class="btn btn-primary" href="@Url.Action("Create")">Create New Equipment</a>
-    <button class="btn btn-secondary" id="toggleFilterButton" onclick="toggleFilters()">Show Filters</button>
+    @if (User.IsInRole("admin")) // Проверка на роль admin
+    {
+        <a class="btn btn-primary" href="@Url.Action("Create")">Добавить новое оборудование</a>
+    }
+    <button class="btn btn-secondary" id="toggleFilterButton" onclick="toggleFilters()">Показать фильтры</button>
 </p>
 
 <div id="filterContainer" style="display: none; margin-bottom: 20px;">
     <form method="get" action="@Url.Action("Index")">
         <div class="form-group">
-            <label for="inventoryNumber">Inventory Number</label>
+            <label for="inventoryNumber">Инвентарный номер</label>
             <input type="text" id="inventoryNumber" name="inventoryNumber" value="@ViewData["FilterInventoryNumber"]" class="form-control" />
         </div>
         <div class="form-group">
-            <label for="name">Name</label>
+            <label for="name">Название</label>
             <input type="text" id="name" name="name" value="@ViewData["FilterName"]" class="form-control" />
         </div>
         <div class="form-group">
@@ -26,10 +29,10 @@
             <input type="date" id="startDate" name="startDate" value="@ViewData["FilterStartDate"]" class="form-control" />
         </div>
         <div class="form-group">
-            <label for="location">Location</label>
+            <label for="location">Место нахождения</label>
             <input type="text" id="location" name="location" value="@ViewData["FilterLocation"]" class="form-control" />
         </div>
-        <button type="submit" class="btn btn-primary">Apply Filters</button>
+        <button type="submit" class="btn btn-primary">Применить фильтры</button>
     </form>
 </div>
 
@@ -37,18 +40,21 @@
     <thead>
         <tr>
             <th>
-                <a asp-route-sortOrder="@ViewData["InventorySortParm"]">Inventory Number</a>
+                <a asp-route-sortOrder="@ViewData["InventorySortParm"]">Инвентарный номер</a>
             </th>
             <th>
-                <a asp-route-sortOrder="@ViewData["NameSortParm"]">Name</a>
+                <a asp-route-sortOrder="@ViewData["NameSortParm"]">Название</a>
             </th>
             <th>
-                <a asp-route-sortOrder="@ViewData["StartDateSortParm"]">Start Date</a>
+                <a asp-route-sortOrder="@ViewData["StartDateSortParm"]">Дата приобретения</a>
             </th>
             <th>
-                <a asp-route-sortOrder="@ViewData["LocationSortParm"]">Location</a>
+                <a asp-route-sortOrder="@ViewData["LocationSortParm"]">Место нахождения</a>
             </th>
-            <th>Actions</th>
+            @if (User.IsInRole("admin")) // Проверка на роль admin для отображения действий
+            {
+                <th>Actions</th>
+            }
         </tr>
     </thead>
     <tbody>
@@ -60,9 +66,12 @@
                 <td>@item.StartDate?.ToString("d")</td>
                 <td>@item.Location</td>
                 <td>
-                    <a class="btn btn-info btn-sm" href="@Url.Action("Edit", new { id = item.EquipmentId })">Edit</a>
-                    <a class="btn btn-info btn-sm" href="@Url.Action("Details", new { id = item.EquipmentId })">Details</a>
-                    <a class="btn btn-danger btn-sm" href="@Url.Action("Delete", new { id = item.EquipmentId })">Delete</a>
+                    @if (User.IsInRole("admin")) // Проверка на роль admin для отображения действий
+                    {
+                        <a class="btn btn-info btn-sm" href="@Url.Action("Edit", new { id = item.EquipmentId })">Изменить</a>
+                        <a class="btn btn-danger btn-sm" href="@Url.Action("Delete", new { id = item.EquipmentId })">Удалить</a>
+                        <a class="btn btn-info btn-sm" href="@Url.Action("Details", new { id = item.EquipmentId })">Дополнительно</a>
+                    }
                 </td>
             </tr>
         }
@@ -76,10 +85,10 @@
             const button = document.getElementById('toggleFilterButton');
             if (filterContainer.style.display === 'none') {
                 filterContainer.style.display = 'block';
-                button.textContent = 'Hide Filters';
+                button.textContent = 'Закрыть фильтры';
             } else {
                 filterContainer.style.display = 'none';
-                button.textContent = 'Show Filters';
+                button.textContent = 'Показать фильтры';
             }
         }
     </script>

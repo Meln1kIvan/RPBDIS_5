@@ -5,15 +5,15 @@
     Layout = "_Layout"; // Указываем мастер-страницу
 }
 
-<h2>Completed Works</h2>
+<h2>Выполненная работа</h2>
 
 <p>
-    <a class="btn btn-primary" href="@Url.Action("Create", "CompletedWorks")">Create New Completed Work</a>
-    <button class="btn btn-primary" id="filterButton" onclick="toggleFilter()">Показать фильтры</button>
+    <a class="btn btn-primary" href="@Url.Action("Create", "CompletedWorks")">Добавить выполненнуй работу</a>
+    <button class="btn btn-secondary" id="toggleFilterButton" onclick="toggleFilters()">Показать фильтры</button>
 </p>
 
 <!-- Форма для фильтрации -->
-<div id="filterContainer" style="display: none; margin-top: 10px;">
+<div id="filterContainer" style="display: none; margin-bottom: 20px;">
     <form method="get" action="@Url.Action("Index")">
         <div class="form-group">
             <label for="equipmentName">Оборудование:</label>
@@ -117,13 +117,15 @@
 
 @section Scripts {
     <script>
-        // Скрипт для показа/скрытия фильтров
-        function toggleFilter() {
-            var filterContainer = document.getElementById('filterContainer');
+        function toggleFilters() {
+            const filterContainer = document.getElementById('filterContainer');
+            const button = document.getElementById('toggleFilterButton');
             if (filterContainer.style.display === 'none') {
                 filterContainer.style.display = 'block';
+                button.textContent = 'Скрыть фильтры';
             } else {
                 filterContainer.style.display = 'none';
+                button.textContent = 'Показать фильтры';
             }
         }
     </script>
